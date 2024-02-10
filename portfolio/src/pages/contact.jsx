@@ -93,7 +93,7 @@ export default function Contact() {
 
   return (
     <>
-      <h1>Contact Page</h1>
+      <h1 style={{ textAlign: 'center' }}>Contact Page</h1>
       <form onSubmit={handleSubmit} style={styles.form} noValidate>
         <label htmlFor="name" style={styles.label}>Name:</label>
         <input

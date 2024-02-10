@@ -1,11 +1,13 @@
 import React from "react";
-import ProjectCard from "../components/ProjectCard"; // Ensure correct path
+import ProjectCard from "../components/ProjectCard"; 
+import PetFriendly from '../assets/image/PetFriendly.png';
 
 export default function Portfolio() {
     const projects = [
         {
             title: 'Pet Friendly',
-            image: '/path-to-image-1.jpg',
+            // image: '../assets/image/PetFriendly.png',
+            image: PetFriendly,
             deployedUrl: 'https://alamm01.github.io/petfriendly/',
             githubUrl: 'https://github.com/alamm01/petfriendly',
         },
