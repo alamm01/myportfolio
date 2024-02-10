@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard"; 
 import PetFriendly from '../assets/image/PetFriendly.png';
+import FeastFinder from '../assets/image/FeastFinder.png';
 
 export default function Portfolio() {
     const projects = [
@@ -12,10 +13,10 @@ export default function Portfolio() {
             githubUrl: 'https://github.com/alamm01/petfriendly',
         },
         {
-            title: 'Project 2',
-            image: '/path-to-image-2.jpg',
-            deployedUrl: 'https://deployed-link-2.com',
-            githubUrl: 'https://github-link-2.com',
+            title: 'FeastFinder',
+            image: FeastFinder,
+            deployedUrl: 'https://feastfinder-29c2a8dddaa0.herokuapp.com/',
+            githubUrl: 'https://github.com/alamm01/FeastFinder',
         },
         {
             title: 'Project 3',
