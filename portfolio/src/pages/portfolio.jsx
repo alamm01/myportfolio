@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard"; 
 import PetFriendly from '../assets/image/PetFriendly.png';
 import FeastFinder from '../assets/image/FeastFinder.png';
+import NoteTaker from '../assets/image/notetaker.png';
 
 export default function Portfolio() {
     const projects = [
@@ -21,10 +22,11 @@ export default function Portfolio() {
             cardText: "This application helps in managing customers and their reservations at your restaurant. It features a user-friendly interface for customers to make or cancel reservations, and an Admin page for managing reservations on behalf of customers. Enhanced security features ensure the safety and privacy of user data."
         },
         {
-            title: 'Project 3',
-            image: '/path-to-image-3.jpg',
-            deployedUrl: 'https://deployed-link-3.com',
-            githubUrl: 'https://github-link-3.com',
+            title: 'Note Taker',
+            image: NoteTaker,
+            deployedUrl: 'https://notetaker999-0af153472f58.herokuapp.com',
+            githubUrl: 'https://github.com/alamm01/notetaker',
+            cardText: "Note Taker is an application designed to help small business owners write and save notes, facilitating organization and tracking of tasks. This application leverages Express.js for the back end, interacting with a JSON file for persistent storage of notes."
         },
         {
             title: 'Project 4',
