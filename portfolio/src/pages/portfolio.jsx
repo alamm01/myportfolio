@@ -3,6 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import PetFriendly from '../assets/image/PetFriendly.png';
 import FeastFinder from '../assets/image/FeastFinder.png';
 import NoteTaker from '../assets/image/notetaker.png';
+import GetWeather from '../assets/image/getweather.png';
 
 export default function Portfolio() {
     const projects = [
@@ -29,10 +30,11 @@ export default function Portfolio() {
             cardText: "Note Taker is an application designed to help small business owners write and save notes, facilitating organization and tracking of tasks. This application leverages Express.js for the back end, interacting with a JSON file for persistent storage of notes."
         },
         {
-            title: 'Project 4',
-            image: '/path-to-image-4.jpg',
-            deployedUrl: 'https://deployed-link-4.com',
-            githubUrl: 'https://github-link-4.com',
+            title: 'Get Weather',
+            image: GetWeather,
+            deployedUrl: 'https://alamm01.github.io/weather/',
+            githubUrl: 'https://github.com/alamm01/weather/settings/pages',
+            cardText: "This is a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. It uses the 5 Day Weather Forecast API to retrieve and display weather data for cities. It uses localStorage to store any persistent data."
         },
         {
             title: 'Project 5',
