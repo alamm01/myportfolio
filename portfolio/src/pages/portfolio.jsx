@@ -4,10 +4,10 @@ import ProjectCard from "../components/ProjectCard"; // Ensure correct path
 export default function Portfolio() {
     const projects = [
         {
-            title: 'Project 1',
+            title: 'Pet Friendly',
             image: '/path-to-image-1.jpg',
-            deployedUrl: 'https://deployed-link-1.com',
-            githubUrl: 'https://github-link-1.com',
+            deployedUrl: 'https://alamm01.github.io/petfriendly/',
+            githubUrl: 'https://github.com/alamm01/petfriendly',
         },
         {
             title: 'Project 2',
