@@ -1,30 +1,67 @@
 import React from "react";
-import Projectcard from "../components/projectcard";
+import ProjectCard from "../components/ProjectCard"; // Ensure correct path
 
-export default function Portfolio({}) {
+export default function Portfolio() {
     const projects = [
         {
-            title:'project 1'
+            title: 'Project 1',
+            image: '/path-to-image-1.jpg',
+            deployedUrl: 'https://deployed-link-1.com',
+            githubUrl: 'https://github-link-1.com',
         },
         {
-            title: 'project 2'
+            title: 'Project 2',
+            image: '/path-to-image-2.jpg',
+            deployedUrl: 'https://deployed-link-2.com',
+            githubUrl: 'https://github-link-2.com',
         },
         {
-            title: 'project 3'
+            title: 'Project 3',
+            image: '/path-to-image-3.jpg',
+            deployedUrl: 'https://deployed-link-3.com',
+            githubUrl: 'https://github-link-3.com',
         },
+        {
+            title: 'Project 4',
+            image: '/path-to-image-4.jpg',
+            deployedUrl: 'https://deployed-link-4.com',
+            githubUrl: 'https://github-link-4.com',
+        },
+        {
+            title: 'Project 5',
+            image: '/path-to-image-5.jpg',
+            deployedUrl: 'https://deployed-link-5.com',
+            githubUrl: 'https://github-link-5.com',
+        },
+        {
+            title: 'Project 6',
+            image: '/path-to-image-6.jpg',
+            deployedUrl: 'https://deployed-link-6.com',
+            githubUrl: 'https://github-link-6.com',
+        }
+    ];
 
-    ]
+    const portfolioStyle = {
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        alignItems: 'center',
+    };
 
     return (
-
         <>
-
-            <h1>Portfolio page</h1>
-            {projects.map(project=>(
-                <Projectcard title={project.title} key={project.title} />
-            ))}
-
+            <h1 style={{ textAlign: 'center' }}>Portfolio Page</h1>
+            <div style={portfolioStyle}>
+                {projects.map((project, index) => (
+                    <ProjectCard
+                        key={index}
+                        title={project.title}
+                        image={project.image}
+                        deployedUrl={project.deployedUrl}
+                        githubUrl={project.githubUrl}
+                    />
+                ))}
+            </div>
         </>
-
-    )
+    );
 }
