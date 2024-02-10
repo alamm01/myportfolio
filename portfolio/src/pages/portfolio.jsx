@@ -11,12 +11,14 @@ export default function Portfolio() {
             image: PetFriendly,
             deployedUrl: 'https://alamm01.github.io/petfriendly/',
             githubUrl: 'https://github.com/alamm01/petfriendly',
+            cardText: "The app serves as a comprehensive travel companion for pet owners, providing a user-friendly interface to find and book pet-friendly accommodations and services. It features a real-time suggestion search bar for easy location discovery, detailed information on pet policies and amenities, and customizable filters for tailoring search results. Additionally, users can save favorites, create itineraries, and access customer support, ensuring a seamless travel planning experience that prioritizes their pet's needs."
         },
         {
             title: 'FeastFinder',
             image: FeastFinder,
             deployedUrl: 'https://feastfinder-29c2a8dddaa0.herokuapp.com/',
             githubUrl: 'https://github.com/alamm01/FeastFinder',
+            cardText: "This application helps in managing customers and their reservations at your restaurant. It features a user-friendly interface for customers to make or cancel reservations, and an Admin page for managing reservations on behalf of customers. Enhanced security features ensure the safety and privacy of user data."
         },
         {
             title: 'Project 3',
@@ -62,6 +64,7 @@ export default function Portfolio() {
                         image={project.image}
                         deployedUrl={project.deployedUrl}
                         githubUrl={project.githubUrl}
+                        cardText={project.cardText}
                     />
                 ))}
             </div>
