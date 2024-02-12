@@ -29,7 +29,7 @@ To set up the project locally, follow these steps:
 
 ## Source and Deploy Links
 
-- **Source Code**: [GitHub Repository](git@github.com:alamm01/myportfolio.git)
+- **Source Code**: [GitHub Repository](https://github.com/alamm01/myportfolio)
 - **Live Demo**: [Deployed Application](https://main--mohammadalamportfolio.netlify.app/)
 
 ## Contact Info
