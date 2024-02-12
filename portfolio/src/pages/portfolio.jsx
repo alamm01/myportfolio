@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "../components/ProjectCard"; 
+import ProjectCard from "../components/projectcard"; 
 import PetFriendly from '../assets/image/PetFriendly.png';
 import FeastFinder from '../assets/image/FeastFinder.png';
 import NoteTaker from '../assets/image/notetaker.png';
