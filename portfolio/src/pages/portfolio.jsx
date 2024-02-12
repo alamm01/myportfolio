@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "../components/projectcard"; 
 import PetFriendly from '../assets/image/PetFriendly.png';
-import FeastFinder from '../assets/image/FeastFinder.png';
+import FeastFinder from '../assets/image/feastfinder.png';
 import NoteTaker from '../assets/image/notetaker.png';
 import GetWeather from '../assets/image/getweather.png';
 
